@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+/* font-family: 'Gemunu Libre', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Gemunu Libre', sans-serif;
+    
+}
+body {
+  display: grid;
+  place-content: center;
+  height: 95vh;
+  overflow-x: hidden;
+}
+
+.con {
+  background: aliceblue;
+  padding: 15px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p.text {
+  font-size: 25px;
+  font-weight: 900;
+  text-transform: capitalize;
+  position: relative;
+  cursor: pointer;
+}
+
+h2.popup {
+  text-align: center;
+  position: absolute;
+  top: 354px;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 5px 15px;
+  background: #cee8ff;
+  border-radius: 5px;
+  opacity: 0;
+}
+
+.contenar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.activ{
+  animation: lul  0.5s linear forwards;;
+  opacity: 1;
+  
+}
+@keyframes lul {
+  0%{
+    opacity: 0;
+  }
+  40%{
+    opacity: 1;
+  }
+  80%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+    top: 350px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
